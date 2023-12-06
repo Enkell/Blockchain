@@ -25,7 +25,7 @@ def create_connection(host_name, user_name, user_password, db_name):
     except Error as e:
         print(f"The error '{e}' occurred")
     return connection
-connection = create_connection("localhost", "root", "kes1705liza", "block")
+connection = create_connection("localhost", "root", "password", "block")
 
 
 class Blockchain:
